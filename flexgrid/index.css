@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: hsl(0, 0%, 95%);
+  }
+  
+  .container {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    border-radius: 15px;
+  }
+  
+  #sedans {
+    background-color: hsl(31, 77%, 52%);
+    height: 70vh;
+    width: 1000px;
+    padding: 40px;
+  }
+  
+  #suvs {
+    background-color: hsl(184, 100%, 22%);
+    height: 70vh;
+    width: 1000px;
+    padding: 40px;
+  }
+  
+  #lux {
+    background-color: hsl(179, 100%, 13%);
+    height: 70vh;
+    width: 1000px;
+    padding: 40px;
+  }
+  
+  img {
+    width: 60px;
+    height: 40px;
+  }
+  
+  strong {
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 15px;
+    max-width: 100%;
+  }
