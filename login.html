@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="login.css" rel="stylesheet" type="text/css" />
+  <title>Login page</title>
+</head>
+
+<body>
+
+  <main>
+
+    <p class="hi"><strong>Hi,<br> Nice to have you back!</strong></p>
+
+    <form action="success.html">
+
+      <div>
+        <label for="email"><strong><small>E-mail</small></strong></label><br>
+        <input type="email" name="email" id="email" required>
+      </div><br>
+
+      <div>
+        <label for="password"><strong><small>Password</small></strong></label><br>
+        <input type="password" name="password" id="password" autocomplete="current-password" required>
+      </div><br>
+
+      <div>
+        <input type="submit" name="submit" id="submit" value="Log in">
+      </div><br>
+
+      <div>
+        <p id="login-link">Or</p>
+      </div>
+
+    </form>
+
+    <div class="google">
+      <button id="google"">Continue with Google</button>
+    </div><br>
+    
+  </main>
+</body>
+
+</html>

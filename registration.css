@@ -1,0 +1,125 @@
+html, body {
+    height: 100%;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    background-image: url('https://i.postimg.cc/gJkNNwy2/2-four-books-mockup-standing-on-a-wooden-table-a17418-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: arial;
+    text-align: left;
+    padding: 15px;
+    margin: auto;
+  }
+  main {
+    background-color: white;
+    border-radius: 10px;
+    padding:  15px;
+    margin: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #welcome {
+    font-size: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  h3 {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  #fname {
+     border-radius: 9px;
+    background-color: #ddd;
+    border-color: #ddd;
+    border-width: 0px;
+    width: 300px;
+    height: 25px;
+  }
+  #lastname {
+    border-radius: 9px;
+    background-color: #ddd;
+    border-color: #ddd;
+    border-width: 0px;
+    width: 300px;
+    height: 25px;
+  }
+  #pnumber {
+    border-radius: 9px;
+    background-color: #ddd;
+    border-color: #ddd;
+    border-width: 0px;
+    width: 300px;
+    height: 25px;
+  }
+  #email {
+    border-radius: 9px;
+    background-color: #ddd;
+    border-color: #ddd;
+    border-width: 0px;
+    width: 300px;
+    height: 25px;
+  }
+  .gender-date {
+    display: flex
+  }
+  #gender {
+    border-radius: 9px;
+    background-color: #ddd;
+    border-color: #ddd;
+    border-width: 0px;
+    width: 70px;
+    height: 25px;
+    margin-right: 15px
+  }
+  #color {
+     border-radius: 9px;
+    background-color: #ddd;
+    border-color: #ddd;
+    border-width: 0px;
+    width: 105px;
+    height: 25px;
+    margin-right: 15px;
+  }
+  #date {
+    border-radius: 9px;
+    background-color: #ddd;
+    border-color: #ddd;
+    border-width: 0px;
+    width: 95px;
+    height: 25px;
+    margin-right: 45px
+  }
+  #password {
+    border-radius: 9px;
+    background-color: #ddd;
+    border-color: #ddd;
+    border-width: 0px;
+    width: 300px;
+    height: 25px;
+  }
+  .check {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin: 5px;
+    font-size: 13px;
+  }
+  #submit {
+     border-radius: 9px;
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+    border-width: 0px;
+    width: 300px;
+    height: 25px;
+  }
+  #login-link {
+    font-size: 13px;
+    margin-top:0;
+    padding-top: 0;
+    margin-left: 55px;
+  }

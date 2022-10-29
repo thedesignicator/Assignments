@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Zuri-login-assignment</title>
+    <link href="registration.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <script src="script.js"></script>
+      <script
+        src="https://replit.com/public/js/replit-badge.js"
+        theme="blue"
+        defer
+      ></script>
+      <p id="welcome"><strong>Welcome!</strong></p>
+      <h4>Register new account</h4>
+      <form action="success.html">
+        <div>
+          <label for="fname"
+            ><strong><small>First name</small></strong></label
+          ><br />
+          <input type="text" name="fname" id="fname" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="lastname"
+            ><strong><small>Last name</small></strong></label
+          ><br />
+          <input type="text" name="lastname" id="lastname" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="pnumber"
+            ><strong><small>Phone number</small></strong></label
+          ><br />
+          <input type="pnumber" name="pnumber" id="pnumber" required />
+        </div>
+        <br />
+
+        <div>
+          <label for="email"
+            ><strong><small>E-mail</small></strong></label
+          ><br />
+          <input type="email" name="email" id="email" required />
+        </div>
+        <br />
+
+        <div class="gender-date">
+          <div class="gender">
+            <label for="gender"
+              ><strong><small>Gender</small></strong></label
+            ><br />
+            <select id="gender">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+          </div>
+
+          <div class="color">
+            <label for="date"
+              ><strong><small>Favorite color</small></strong></label
+            ><br />
+            <input type="color" name="color" id="color" />
+          </div>
+
+          <div class="date">
+            <label for="date"
+              ><strong><small>Date of Birth</small></strong></label
+            ><br />
+            <input type="date" name="date" id="date" />
+          </div>
+          <br />
+        </div>
+        <br />
+
+        <div class="password">
+          <label for="password"
+            ><strong><small>Password</small></strong></label
+          ><br />
+          <input type="password" name="password" id="password" required />
+        </div>
+        <br />
+
+        <div class="password">
+          <label for="password"
+            ><strong><small>Confirm password</small></strong></label
+          ><br />
+          <input type="password" name="password" id="password" required />
+        </div>
+        <br />
+
+        <div class="check">
+          <input type="checkbox" name="checkbox" id="checkbox" required />
+          <label for="checkbox"
+            ><small
+              >I agree to the
+              <a
+                href="https://app.termly.io/dashboard/website/14a8ab90-a057-413b-b321-abfb8ece50f5/terms-of-service"
+              >
+                terms and conditions</a
+              ></small
+            ></label
+          >
+        </div>
+        <br />
+
+        <div class="up">
+          <input
+            type="submit"
+            name="submit"
+            id="submit"
+            placeholder="Sign up"
+            value="Sign up"
+          />
+        </div>
+        <br />
+
+        <div>
+          <p id="login-link">
+            Already have an account? <a href="login.html"> Login</a>
+          </p>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

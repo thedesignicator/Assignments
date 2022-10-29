@@ -1,0 +1,41 @@
+html, body {
+    height: 100%;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    background-image: url('https://i.postimg.cc/gJkNNwy2/2-four-books-mockup-standing-on-a-wooden-table-a17418-1.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: arial;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+  }
+  main {
+    background-color: white;
+    border-radius: 10px;
+    padding:  15px;
+    margin: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #welcome {
+    font-size: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #080;
+  }
+  #home {
+    border-radius: 9px;
+    background-color: #080;
+    color: #fff;
+    border-color: #080;
+    border-width: 0px;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+  }
